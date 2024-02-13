@@ -47,6 +47,7 @@ This section describes the features of the application.
 This section describes the application architecture.
 
 ### Software Architecture
+![Alt text](Layered_Architectural_Diagram.jpg)
 > _Place a architectural diagram here._
 > _Describe your software architecture._
 
