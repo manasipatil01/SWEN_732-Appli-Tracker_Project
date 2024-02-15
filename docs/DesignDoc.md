@@ -62,4 +62,16 @@ Each layer has a specific responsibility and interacts with adjacent layers in a
 
 ### Class Diagram
 ![Alt text](Class_Diagram.png)
-> _Describe your class diagram._
+  1. User class is a class that represents a system user with attributes that include userdid(an integer that uniquely identify the user), email (a string which stores the users email) and password (a string which stores the users password). 
+
+  2. Job class is a class that represents a job in terms of its attributes such as jobid(an integer that uniquely identifies the job), title(a string that stores the title of the job), description(a string that stores the description of the job), weblink(a string that stores the link to where the job is posted), priority(a string, storing priority of this job), company(a string storing hiring company name), appliedDate(date stores when user applied for this job) , category(a string indicating what type of a  category this is) and status(string which shows whether it has been approved or not). 
+ 
+  3. Notification class represents an instance of notification with attributes like notificationid(an integer used to uniquely identify notification), userdid(stores id details about user who was notified by thiis notification) ,jobid(contains id information about jobs on notifications(i.e. where task has been assigned to another person)), message(text contains words used in notifications) and dateTime(date time stamps when each notification was sent). 
+
+  4. ScheduleClass represents list of jobs with attributes such as scheduleid(an integer)i.e., means every schedule will have one number, userid(details about individual who owns given schedule i.e. an employee iD)),”jobId”(an integer storing unique identifier for each particular activity on schedule”); TaskName(String ) – TaskDescription(String ); DueDate(Date ), fileType(String ).
+
+  5. The DataExporter class consists only two methods exportToCSV(data) and exportToExcel(data).
+
+  6. FileAttachment Class defines File Attachment related to Job object having attributes attachmentid(unique identifier for attachment) ,jobId(job id associated with attachment), filename(name under which file was saved at time of uploading it.), fileType(format in which given document was attached), content(stores attachment contents in bytes).
+
+  7. CalendarView class displays a calendar view of user’s job applications.CalendarView has method whose signature reads “void viewJobsOnCalendar(jobs)”.
