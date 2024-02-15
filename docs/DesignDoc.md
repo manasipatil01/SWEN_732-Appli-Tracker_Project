@@ -25,7 +25,8 @@ Our project Titled 'Appli Tracker' is an web based software which helps in creat
 This section describes the features of the application.
 
 ### Definition of MVP
-> _Provide a simple description of the Minimum Viable Product._
+MVP in the field of Software Development is used to refer to **Minimum Viable Product**. It refers to a development strategy in which a product is built with only the functionality necessary to satisfy the early adopters or consumers while also gathering valuable feedback for future development. An MVP includes a minimal set of functionality that users demand.  
+
 
 ### MVP Features
  1. Login user : Users can LogIn into the application by using Email and password.
