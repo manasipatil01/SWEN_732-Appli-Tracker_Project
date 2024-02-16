@@ -57,6 +57,7 @@ Each layer has a specific responsibility and interacts with adjacent layers in a
 
 ### Use Cases
 ![Alt text](Usecase_Diagram.png)
+
 Here is a description of the various elements and their intended functionality as depicted in the use case diagram:
 
 Actors: The primary actor in the system is the "Job Seeker," indicating that the system is designed from the perspective of individuals looking for employment opportunities.
