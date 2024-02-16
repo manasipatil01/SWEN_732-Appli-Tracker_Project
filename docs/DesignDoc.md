@@ -57,7 +57,45 @@ Each layer has a specific responsibility and interacts with adjacent layers in a
 
 ### Use Cases
 ![Alt text](Usecase_Diagram.png)
-> _Describe your use case diagram._
+Here is a description of the various elements and their intended functionality as depicted in the use case diagram:
+
+Actors: The primary actor in the system is the "Job Seeker," indicating that the system is designed from the perspective of individuals looking for employment opportunities.
+
+System: Labeled as "Appli-Tracker System," this represents the web-based application software that job seekers will interact with to manage their job applications.
+
+Use Cases:
+
+1. Login: The job seeker can log in to the system using their credentials (email and password).
+
+2. SignUp: The job seeker can sign up for an account in the system. This is an extension from the "Login" use case which means signing up is a part of the login process, as usually, a new user would need to sign up before logging in.
+
+3. Add Job: Once logged in, the job seeker can add new job entries to the system.
+
+4. Recruiter details: This is an extension from the "Add Job" use case, implying that job seekers can add or view details about the recruiters associated with the job.
+
+5. Attach Files: An extension of the "Add Job" use case, where the job seeker can attach files like resumes or CVs to their job entries.
+
+6. Assign priority levels: For each job entry, the job seeker can assign priority levels such as high, medium, or low.
+
+7. Search Job: The job seeker can search for jobs within the system based on different criteria such as company name, applied date, or category.
+
+8. Export Data: There is a functionality for the job seeker to export job data to formats like CSV or Excel.
+
+9. Create Todos: The job seeker can create to-do lists, likely for organizing tasks related to job applications.
+
+10. Assessment/Interviews: This extends from the "Create Todos" use case, suggesting that assessments or interviews can be part of the to-dos.
+
+11. Receive Reminders: The system can send reminders to the job seeker, possibly for upcoming deadlines or scheduled tasks.
+
+12. Tracking: The job seeker can track the status of their job applications.
+
+13. Calendar View: Extends from the "Tracking" use case, indicating that the job seeker can view their application tracking in a calendar format to better visualize their schedule.
+
+14. Accept/Reject/InProgress: This is also an extension of the "Tracking" use case, which allows job seekers to update the status of their applications based on the response from recruiters or their own decisions.
+
+15. View Dashboard: The job seeker can view a dashboard, which provides a report of application statuses on a weekly or other periodic basis.
+
+16. Logout: This allows the job seeker to securely exit their session from the web application.
 
 
 ### Class Diagram
